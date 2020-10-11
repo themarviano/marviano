@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="MARVIANO: Marcos Vinicius Alves do Nascimento Oliveira">
+
+    <title>marviano</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="card-header">
+        <figure>
+            <img src="avatar.png" alt="Marcos Vinicius">
+        </figure>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#fff" fill-opacity="1"
+                d="M0,96L48,117.3C96,139,192,181,288,192C384,203,480,181,576,165.3C672,149,768,139,864,144C960,149,1056,171,1152,197.3C1248,224,1344,256,1392,272L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+
+        <h1 class="text-center">
+            Marcos Vinicius Alves do Nascimento Oliveira
+        </h1>
+
+        <span>Desenvolvedor web</span>
+    </header>
+
+    <section>
+        <div class="social flex-center-middle">
+            <a href="https://github.com/themarviano" target="__blank" class="github">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                    <path fill-rule="evenodd" fill="#fff"
+                        d="M 16 4 C 9.371094 4 4 9.371094 4 16 C 4 21.300781 7.4375 25.800781 12.207031 27.386719 C 12.808594 27.496094 13.027344 27.128906 13.027344 26.808594 C 13.027344 26.523438 13.015625 25.769531 13.011719 24.769531 C 9.671875 25.492188 8.96875 23.160156 8.96875 23.160156 C 8.421875 21.773438 7.636719 21.402344 7.636719 21.402344 C 6.546875 20.660156 7.71875 20.675781 7.71875 20.675781 C 8.921875 20.761719 9.554688 21.910156 9.554688 21.910156 C 10.625 23.746094 12.363281 23.214844 13.046875 22.910156 C 13.15625 22.132813 13.46875 21.605469 13.808594 21.304688 C 11.144531 21.003906 8.34375 19.972656 8.34375 15.375 C 8.34375 14.0625 8.8125 12.992188 9.578125 12.152344 C 9.457031 11.851563 9.042969 10.628906 9.695313 8.976563 C 9.695313 8.976563 10.703125 8.65625 12.996094 10.207031 C 13.953125 9.941406 14.980469 9.808594 16 9.804688 C 17.019531 9.808594 18.046875 9.941406 19.003906 10.207031 C 21.296875 8.65625 22.300781 8.976563 22.300781 8.976563 C 22.957031 10.628906 22.546875 11.851563 22.421875 12.152344 C 23.191406 12.992188 23.652344 14.0625 23.652344 15.375 C 23.652344 19.984375 20.847656 20.996094 18.175781 21.296875 C 18.605469 21.664063 18.988281 22.398438 18.988281 23.515625 C 18.988281 25.121094 18.976563 26.414063 18.976563 26.808594 C 18.976563 27.128906 19.191406 27.503906 19.800781 27.386719 C 24.566406 25.796875 28 21.300781 28 16 C 28 9.371094 22.628906 4 16 4 Z" />
+                </svg>
+                Github
+            </a>
+
+            <a href="https://www.linkedin.com/in/marcos-vinicius-alves/" target="__blank" class="linkedin">
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                    <path fill="#fff"
+                        d="M 8.6425781 4 C 7.1835781 4 6 5.181625 6 6.640625 C 6 8.099625 7.182625 9.3085938 8.640625 9.3085938 C 10.098625 9.3085938 11.283203 8.099625 11.283203 6.640625 C 11.283203 5.182625 10.101578 4 8.6425781 4 z M 21.535156 11 C 19.316156 11 18.0465 12.160453 17.4375 13.314453 L 17.373047 13.314453 L 17.373047 11.310547 L 13 11.310547 L 13 26 L 17.556641 26 L 17.556641 18.728516 C 17.556641 16.812516 17.701266 14.960938 20.072266 14.960938 C 22.409266 14.960937 22.443359 17.145609 22.443359 18.849609 L 22.443359 26 L 26.994141 26 L 27 26 L 27 17.931641 C 27 13.983641 26.151156 11 21.535156 11 z M 6.3632812 11.310547 L 6.3632812 26 L 10.923828 26 L 10.923828 11.310547 L 6.3632812 11.310547 z" />
+                </svg>
+                Linkedin
+            </a>
+        </div>
+
+        <div class="contents">
+            <div class="navigator">
+                <button id="btnAboutMe" name="btnAboutMe" onclick="showAboutMe()" aria-label="Sobre mim" class="flex-center-middle">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                        <path fill="#419fa8"
+                            d="M 13.28125 6.78125 L 4.78125 15.28125 L 4.09375 16 L 4.78125 16.71875 L 13.28125 25.21875 L 14.71875 23.78125 L 7.9375 17 L 28 17 L 28 15 L 7.9375 15 L 14.71875 8.21875 Z" />
+                    </svg>
+                </button>
+
+                <button id="btnProjects" name="btnProjects" onclick="showProject()" aria-label="Meus projetos" class="flex-center-middle">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                        <path fill="#419fa8"
+                            d="M 18.71875 6.78125 L 17.28125 8.21875 L 24.0625 15 L 4 15 L 4 17 L 24.0625 17 L 17.28125 23.78125 L 18.71875 25.21875 L 27.21875 16.71875 L 27.90625 16 L 27.21875 15.28125 Z" />
+                    </svg>
+                </button>
+            </div>
+
+            <article class="about-me" id="aboutMe">
+                <header>
+                    <h1 class="text-center">Sobre mim</h1>
+                </header>
+
+                <figure>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                        <path fill="#2f3d57"
+                            d="M 16 3 C 8.832 3 3 8.832 3 16 C 3 23.168 8.832 29 16 29 C 23.168 29 29 23.168 29 16 C 29 8.832 23.168 3 16 3 z M 16 5 C 22.065 5 27 9.935 27 16 C 27 22.065 22.065 27 16 27 C 9.935 27 5 22.065 5 16 C 5 9.935 9.935 5 16 5 z M 11.5 12 A 1.5 1.5 0 0 0 11.5 15 A 1.5 1.5 0 0 0 11.5 12 z M 20.5 12 A 1.5 1.5 0 0 0 20.5 15 A 1.5 1.5 0 0 0 20.5 12 z M 9 19 C 9 19 10.605 24 16 24 C 21.395 24 23 19 23 19 L 9 19 z" />
+                    </svg>
+                </figure>
+
+                <p class="text-center">
+                    Conheci a programação na faculdade quando eu tinha 17 anos, imediatamente me encantei por esse mundo
+                    e desde então busco entender cada vez mais dele.
+                </p>
+            </article>
+
+            <article id="projects">
+                <header>
+                    <h1 class="text-center">Meus melhores projetos</h1>
+                </header>
+
+                <ul class="projects">
+                    <li>
+                        <a href="https://github.com/themarviano">
+                            <figure class="nacao-azul flex-center-middle">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                    <path fill="#0063af"
+                                        d="M 16 3 C 8.832031 3 3 8.832031 3 16 C 3 23.167969 8.832031 29 16 29 C 23.167969 29 29 23.167969 29 16 C 29 8.832031 23.167969 3 16 3 Z M 16 5 C 16.601563 5 17.175781 5.0625 17.75 5.15625 L 16 6.40625 L 14.25 5.15625 C 14.820313 5.066406 15.402344 5 16 5 Z M 11.8125 5.84375 L 15.40625 8.46875 L 16 8.90625 L 16.59375 8.46875 L 20.1875 5.84375 C 21.785156 6.507813 23.195313 7.523438 24.3125 8.8125 L 22.9375 13.09375 L 22.71875 13.78125 L 23.3125 14.1875 L 26.9375 16.84375 C 26.804688 18.605469 26.265625 20.257813 25.40625 21.6875 L 20.125 21.6875 L 19.90625 22.375 L 18.5 26.71875 C 17.699219 26.90625 16.859375 27 16 27 C 15.105469 27 14.238281 26.886719 13.40625 26.6875 L 12.03125 22.40625 L 11.8125 21.71875 L 6.59375 21.71875 C 5.71875 20.28125 5.199219 18.621094 5.0625 16.84375 L 8.65625 14.21875 L 9.25 13.8125 L 9.03125 13.125 L 7.625 8.875 C 8.75 7.554688 10.183594 6.515625 11.8125 5.84375 Z M 16 10.09375 L 15.40625 10.53125 L 10.84375 13.84375 L 10.28125 14.28125 L 10.5 14.96875 L 12.25 20.3125 L 12.46875 21 L 19.53125 21 L 19.75 20.3125 L 21.5 14.96875 L 21.71875 14.28125 L 21.15625 13.84375 L 16.59375 10.53125 Z M 25.75 10.90625 C 26.296875 11.953125 26.65625 13.101563 26.84375 14.3125 L 25.0625 13.03125 Z M 6.21875 10.96875 L 6.90625 13.03125 L 5.15625 14.3125 C 5.339844 13.125 5.6875 12 6.21875 10.96875 Z M 16 12.59375 L 19.375 15.03125 L 18.09375 19 L 13.90625 19 L 12.625 15.03125 Z M 21.59375 23.6875 L 23.84375 23.6875 C 22.992188 24.566406 22.011719 25.292969 20.90625 25.84375 Z M 8.15625 23.71875 L 10.34375 23.71875 L 11.03125 25.8125 C 9.960938 25.269531 8.988281 24.5625 8.15625 23.71875 Z" />
+                                </svg>
+                            </figure>
+
+                            <div>
+                                <strong>Nação azul</strong>
+                                Plataforma para o Cruzeiro se comunicar diretamente com seus torcedores
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/themarviano">
+                            <figure class="enquetes flex-center-middle">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                    <path fill="#9000E7"
+                                        d="M 16 2 C 14.742188 2 13.847656 2.890625 13.40625 4 L 5 4 L 5 29 L 27 29 L 27 4 L 18.59375 4 C 18.152344 2.890625 17.257813 2 16 2 Z M 16 4 C 16.554688 4 17 4.445313 17 5 L 17 6 L 20 6 L 20 8 L 12 8 L 12 6 L 15 6 L 15 5 C 15 4.445313 15.445313 4 16 4 Z M 7 6 L 10 6 L 10 10 L 22 10 L 22 6 L 25 6 L 25 27 L 7 27 Z M 21.28125 13.28125 L 15 19.5625 L 11.71875 16.28125 L 10.28125 17.71875 L 14.28125 21.71875 L 15 22.40625 L 15.71875 21.71875 L 22.71875 14.71875 Z" />
+                                </svg>
+                            </figure>
+
+                            <div>
+                                <strong>Enquetes</strong>
+                                Aplicação para realização de enquente de maneira simples e rápida
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/themarviano">
+                            <figure class="zelo flex-center-middle">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                    <path fill="#FF3C3C"
+                                        d="M 9.5 5 C 5.363281 5 2 8.402344 2 12.5 C 2 13.929688 2.648438 15.167969 3.25 16.0625 C 3.851563 16.957031 4.46875 17.53125 4.46875 17.53125 L 15.28125 28.375 L 16 29.09375 L 16.71875 28.375 L 27.53125 17.53125 C 27.53125 17.53125 30 15.355469 30 12.5 C 30 8.402344 26.636719 5 22.5 5 C 19.066406 5 16.855469 7.066406 16 7.9375 C 15.144531 7.066406 12.933594 5 9.5 5 Z M 9.5 7 C 12.488281 7 15.25 9.90625 15.25 9.90625 L 16 10.75 L 16.75 9.90625 C 16.75 9.90625 19.511719 7 22.5 7 C 25.542969 7 28 9.496094 28 12.5 C 28 14.042969 26.125 16.125 26.125 16.125 L 16 26.25 L 5.875 16.125 C 5.875 16.125 5.390625 15.660156 4.90625 14.9375 C 4.421875 14.214844 4 13.273438 4 12.5 C 4 9.496094 6.457031 7 9.5 7 Z" />
+                                </svg>
+                            </figure>
+                            <div>
+                                <strong>Zelo</strong>
+                                Aplicação para fidelização e conquista de clientes
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </article> 
+        </div>
+    </section>
+
+    <script>
+        var btnAboutMe = document.getElementById("btnAboutMe");
+        var btnProjects = document.getElementById("btnProjects");
+
+        function showAboutMe() {
+            aboutMe.style.display = "block";
+            projects.style.display = "none";            
+        }
+
+        function showProject() {
+            aboutMe.style.display = "none";
+            projects.style.display = "block";
+        }
+    </script>
+</body>
+
+</html>
