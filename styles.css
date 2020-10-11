@@ -141,7 +141,7 @@ article p+p {
     position: relative;
 }
 
-.contents article:nth-child(2) {
+.contents article:nth-child(3) {
     display: none;
 }
 
