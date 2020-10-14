@@ -8,7 +8,7 @@
     --primary: #2f3d57;
     --secondary: #419fa8;
     --white: #fff;
-    --grey: #f0f0f0,
+    --grey: #f0f0f0;
 }
 
 html {
@@ -166,8 +166,20 @@ article p+p {
     font-size: 12px;
 }
 
-.projects li a:hover, .projects li a:focus {
-    background-color: var(--grey);
+.projects li a {
+    position: relative;
+}
+
+.projects li a span {
+    position: absolute;
+    top: 2px;
+    right: 8px;
+    padding: 4px 8px;
+    background: var(--grey);
+    color: var(--primary);
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 10px;
 }
 
 .projects li a strong {
