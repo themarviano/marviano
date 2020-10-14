@@ -172,7 +172,7 @@ article p+p {
 
 .projects li a span {
     position: absolute;
-    top: 2px;
+    top: 1px;
     right: 8px;
     padding: 4px 8px;
     background: var(--grey);
